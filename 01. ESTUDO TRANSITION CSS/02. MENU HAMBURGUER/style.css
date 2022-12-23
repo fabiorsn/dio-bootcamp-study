@@ -42,12 +42,16 @@
 
 }
 
+/* hide the check mark */
+
 #toggle {
     display: none;
 }
 
+/* set the position of the trace */
+
 .checkbox .trace:nth-child(1) {
-    top: 15px;
+    top: 25px;
     transform: rotate(0);
 }
 
@@ -56,9 +60,11 @@
 }
 
 .checkbox .trace:nth-child(3) {
-    top: 77px;
+    top: 67px;
     transform: rotate(0);
 }
+
+/* set the effect of the trace */
 
 #toggle:checked + .checkbox .trace:nth-child(1) {
     transform: rotate(45deg);
